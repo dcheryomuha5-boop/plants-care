@@ -1,0 +1,64 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif; /* Простой шрифт */
+    line-height: 1.6; /* Расстояние между строками */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Светлый фон */
+    color: #333; /* Темно-серый текст */
+}
+
+header {
+    background-color: #e0f2e9; /* Очень светлый зеленый фон для шапки */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #b8d9c6;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    color: #2c5f2d; /* Темно-зеленый цвет текста ссылок */
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #f0fff4; /* Почти белый фон для кнопок меню */
+    border: 1px solid #b8d9c6;
+}
+
+nav a:hover {
+    background-color: #b8d9c6; /* Меняем фон при наведении мышки */
+}
+
+main {
+    max-width: 800px; /* Ширина основной части */
+    margin: 20px auto; /* Выравнивание по центру */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Легкая тень */
+}
+
+h1, h2, h3 {
+    color: #2c5f2d; /* Зеленые заголовки */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #e0f2e9;
+    border-top: 2px solid #b8d9c6;
+}
+
+ul, ol {
+    padding-left: 30px;
+}
+
+a {
+    color: #2c5f2d;
+}
